@@ -1,0 +1,36 @@
+.heading {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+@media (max-width: 700px) {
+    body {
+       background-color: #123;
+    }
+    .heading {
+      color: #fff;
+      text-decoration: underline;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  body {
+    background-color: #0f0;
+  }
+  .heading {
+    font-size: 5em;
+    color: #ff0
+  }
+}
+
+@media (min-width: 1200px) {
+   body {
+    background-color: #ff0;
+   }
+   .heading {
+      font-size: 10em;
+      color: #0f0
+   }
+}
+
