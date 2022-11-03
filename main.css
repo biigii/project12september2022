@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 html,
@@ -15,29 +16,26 @@ body {
   height: 100%;
 }
 
-section {
-  border: 3px dashed;
-  /* height: 80%; */
-  margin: 50px;
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
 }
 
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: #f11;
-  font-size: 5em;
-  color: #fff;
+.navigation {
+  padding: 10px;
+  list-style: none;
+  list-style-position: inside;
+  background-color: #bbb;
+  /* border: 3px solid; */
+  height: 120px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 40px;
+  /* justify-content: center; */
+  justify-content: end;
+  align-items: end;
 }
 
-section {
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-  /* flex-direction: row; default */
-  justify-content: center;
-  /* align-items: end; */
-  align-content: center;
+.contact-item {
+  /* align-self: end; */
 }
